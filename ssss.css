@@ -1,9 +1,82 @@
 body {margin:100; background-color:#ffff99; }
+
+
+
 .logo {float:left; margin:100px; width:100px; height:0px;}
+
+
+
 .ssilki {max-width:800px; background-color:#ffff99; margin: 0 auto; margin-top:20px;text-align: center; padding:10px;}
+
+
+
 .all {text-align: center; background-color: #ffdab9; margin: 50px;  }
+
+
+
 .tb {margin:auto; background-color: #000; width:410px;height: 259px;border:2px solid;}
+
+
+
 .stroka {background-color: #98fb98; width:100px;height:60px; }
+
+
+
 .stolb  {background-color: #66cd60; width:100px;height:60px;}
+
+
+
 .end    {background-color: #90ee90; height: 50px;font-size: 20px;}
 x3 {margin: 10px;}
+
+
+@media only screen and (max-width : 992px) {
+    .logo  {
+        width: 100px;
+    }
+    .ssilki {
+        background: #ffff99;
+    }
+    .all {
+        background: #ffdab9;
+        text-align: center;
+    }
+    .tb {
+        background: #000;
+    }
+    .stroka {
+        background: #98fb98;
+    }
+    .stolb {
+        background: #66cd60;
+        
+    }
+}
+
+
+
+
+@media only screen and (max-width : 480px) {
+    .logo  {
+        width: 100px;
+    }
+    .ssilki {
+        background: #3dfff2;
+    }
+    .all {
+        background: #328e8d;
+
+    }
+    .tb {
+        background: #91b399;
+       
+    }
+    .stroka {
+        background: #f2f4f2;
+     
+    }
+    .stolb {
+        background: #6d6e6d;
+
+    }
+}
