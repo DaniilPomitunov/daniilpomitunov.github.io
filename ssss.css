@@ -1,4 +1,4 @@
-body {margin:100; background-color:#ffff99; }
+body {background-color:#ffff99; }
 
 
 
@@ -25,6 +25,9 @@ body {margin:100; background-color:#ffff99; }
 .stolb  {background-color: #66cd60; width:100px;height:60px;}
 
 
+.calc   {margin: auto; background-color: #30d5c8; width:500px;height:150px; opacity: ; margin-bottom: 30px;margin-top: 30px;padding: 3px;border:2px solid;}
+
+
 
 .end    {background-color: #90ee90; height: 50px;font-size: 20px;}
 x3 {margin: 10px;}
@@ -33,11 +36,19 @@ x3 {margin: 10px;}
 @media only screen and (max-width : 992px) {
     .logo  {
         width: 100px;
+        margin: 10px;
+        padding: 10px;
+        
+    }
+    .naz
+    {
+    	margin: auto;
     }
     .ssilki {
         background: #ffff99;
     }
     .all {
+    	flex: 1;
         background: #ffdab9;
         text-align: center;
     }
@@ -56,27 +67,51 @@ x3 {margin: 10px;}
 
 
 
-@media only screen and (max-width : 480px) {
+@media only screen and (max-width: 600px) {
     .logo  {
         width: 100px;
+        margin-left: 30px;
+    }
+    .naz
+    {
+    	margin:auto;
+    	text-align: center;
+    	margin-left: 50px;
     }
     .ssilki {
         background: #3dfff2;
     }
     .all {
-        background: #328e8d;
+        background: #ffdab9;
+        display: flex;
+    	flex-direction: column;
+    }
 
+    }
+    .kkk img
+    {
+    	width: 100%;
+    	height: auto;
+        margin-left: -35px;
     }
     .tb {
         background: #91b399;
        
     }
     .stroka {
-        background: #f2f4f2;
+        background: #98fb98;
      
     }
     .stolb {
-        background: #6d6e6d;
+        background: #66cd60;
 
     }
+    .calc
+    { 
+    	display: flex;
+    	flex-direction: column;
+    	width: 250px;
+    	height: 200px;
+    }
 }
+

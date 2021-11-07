@@ -7,11 +7,11 @@
 
 
 <body>
-	<div style="width:100%; background-color:#90ee90; padding: 10px;margin: 5px; height:120px;font-size: 50px;">
+	<div style="width:100%; background-color:#90ee90; padding: 10px; height:120px;font-size: 50px;">
 		
 		
 			<div class="logo"><img src="image.png" alt="Логотип"></div>
-	<div>Ювелирные изделия</div>
+	<div class="naz">Ювелирные изделия</div>
 </div>
    
    <div class="ssilki"> 
@@ -63,16 +63,15 @@ title="Относительная ссылка на страницу уровн�
 		
 			<a href="http://example.com/" target="_blank"><img src="jojo.jpg" width="120" height="100"></a>
 			<br>
-			
-			
+			<div class="kkk">
 					<img src="jojo.jpg" usemap="jojojo" width="500" height="400">
 					<map name="jojojo">
 						<area  alt="rect" coords="0,0,300,200" shape="rect" href="http://example.com">
 						<area  alt="cricle" coords="250,300,75" shape="cricle" href="http://example.com">
 						
 					</map>
-
-					<br>
+</div>
+						<br>	
 
 	<a href="/index.html">
 	Относительная ссылка на страницу в текущем каталоге</a>
@@ -169,6 +168,18 @@ title="Относительная ссылка на страницу уровн�
 </p>
 </form>
 
+<div class="calc" align="center">
+    <p> Стоимость: <input type="text" id="n1"> </p>
+    <p> Количество: <input type="text" id="n2"> </p>
+
+
+    <button onclick="umnoj()">Расчитать</button>
+    
+    <p id="result">Результат:</p>
+
+    <script src="boba.js"></script>
+</div>
+
 
 <div class="tb" align="center">
   <table>
@@ -201,6 +212,7 @@ title="Относительная ссылка на страницу уровн�
 </tbody>
     </table>
     </div>
+
 
 
 
