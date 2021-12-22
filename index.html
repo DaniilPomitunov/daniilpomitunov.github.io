@@ -3,6 +3,11 @@
 <head>
   <title> Помитунов Даниил </title>
   <link rel="stylesheet" type="text/css" href="ssss.css">
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
 </head>
 
 
@@ -15,8 +20,8 @@
 </div>
    
    <div class="ssilki"> 
-   	<a href="https://www.585zolotoy.ru/">Zolotoy</a> &nbsp;&nbsp;&nbsp;&nbsp;
-   	<a href="https://diamant-online.ru/">Diamant</a> &nbsp;&nbsp;&nbsp;&nbsp;
+   	<a class="ssilka1" href="https://www.585zolotoy.ru/">Zolotoy</a><br> 
+   	<a href="https://diamant-online.ru/">Diamant</a><br> 
    	<a href="https://sunlight.net/"> Sunlight</a>
     </div>
 
@@ -63,14 +68,12 @@ title="Относительная ссылка на страницу уровн�
 		
 			<a href="http://example.com/" target="_blank"><img src="jojo.jpg" width="120" height="100"></a>
 			<br>
-			<div class="kkk">
-					<img src="jojo.jpg" usemap="jojojo" width="500" height="400">
-					<map name="jojojo">
-						<area  alt="rect" coords="0,0,300,200" shape="rect" href="http://example.com">
-						<area  alt="cricle" coords="250,300,75" shape="cricle" href="http://example.com">
-						
-					</map>
-</div>
+			<img src = "jojo.jpg" width="700" height="500" usemap="#mountaines" alt = "sss">
+                                <map name = mountaines>
+                                    <area shape = "circle" coords="90,50,40" href = "https://jolybell.com/" title = "ssss" alt = "sssss">
+                                    <area shape="rect" coords = "130,200,230,290" href = "https://www.instagram.com/elonrmuskk/" title = "ssssss" alt = "ddddddd">
+                                </map>
+
 						<br>	
 
 	<a href="/index.html">
@@ -101,14 +104,19 @@ title="Относительная ссылка на страницу уровн�
 	<h1>
 	<label>
 	Имя: 
-	<input type="text">
+			<div class="Name">
+				<input type="text">
+			</div>
 	</label>
 	</h1> 
 	<h1>
 		<label>
 			E-mail:
-			<input type="text">
+			<div class="Email">
+				<input type="text">
+			</div>
 		</label>
+
 	</h1>
 	<p>
 		<label>
@@ -118,31 +126,21 @@ title="Относительная ссылка на страницу уровн�
 	</p>
 <p> Пол:
 	<br>
-	<lable>
-	<input name="radio1" type="radio" value="1">Мужской
-</lable>
-<label>
-	<input name="radio2" type="radio" value="2">Женский
-</label>
+	<lable><input   type="radio"  name="jj"  value="1" /> Мужской </lable>
+	
+    <label><input   type="radio"  name="jj"  value="2" /> Женский </label>
+	
+  
 </p>
 <p>
 	Кол-во конечностей:
 	<br>
-	
-		<input name="1" type="radio" value="1">1
-	
-	
-		<input name="2" type="radio" value="2">2
-	
-	<br>
-	
-		<input name="3" type="radio" value="3">3
-	
-	
-		<input name="4" type="radio" value="4">4
-
-	
+	            <label><input type="radio" name="Num" value="1" />1</label>
+                <label><input type="radio" name="Num" value="2" />2</label><br>
+                <label><input type="radio" name="Num" value="3" />3</label>
+			    <label><input type="radio" name="Num" value="4" />4</label>
 </p>
+
 <h4> 
 <lable for> Способность: </lable></h4>
 <select name="Способность:">
@@ -167,6 +165,8 @@ title="Относительная ссылка на страницу уровн�
 	<input type="submit" value="Отправить">
 </p>
 </form>
+
+
 
 <div class="calc" align="center">
     <p> Стоимость: <input type="text" id="n1"> </p>
@@ -212,8 +212,7 @@ title="Относительная ссылка на страницу уровн�
 </tbody>
     </table>
     </div>
-
-
+    
 
 
 </div>

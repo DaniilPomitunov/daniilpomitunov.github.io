@@ -1,7 +1,6 @@
 body {background-color:#ffff99; }
 
 
-
 .logo {float:left; margin:100px; width:100px; height:0px;}
 
 
@@ -33,6 +32,7 @@ body {background-color:#ffff99; }
 x3 {margin: 10px;}
 
 
+
 @media only screen and (max-width : 992px) {
     .logo  {
         width: 100px;
@@ -46,6 +46,13 @@ x3 {margin: 10px;}
     }
     .ssilki {
         background: #ffff99;
+       		max-width:960px;
+      	 text-align: center;
+	margin:0 auto;
+	display: flex;
+	flex-direction: column;
+	background-color:#00CED1;
+	padding-top:20px;
     }
     .all {
     	flex: 1;
